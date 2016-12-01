@@ -1,0 +1,42 @@
+{
+  "name": "otto-node",
+  "version": "1.0.0",
+  "description": "otto-node",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-nodemon": "^0.4.2",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "jsonld": "^0.4.11",
+    "mysql": "^2.11.1",
+    "pm2": "^1.1.3",
+    "swagger-express": "^1.0.5"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GluuFederation/otto-node.git"
+  },
+  "keywords": [
+    "otto-node"
+  ],
+  "author": "Meghana Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GluuFederation/otto-node/issues"
+  },
+  "homepage": "https://github.com/GluuFederation/otto-node#readme"
+}

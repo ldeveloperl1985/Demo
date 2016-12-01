@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myDemoApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+
+    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+
+
+
+</head>
+<body>
+<div>
+
+
+    <div id="navigation">
+        <a href="#home">Home</a>
+        <a href="#customer">Customer</a>
+    </div>
+
+    <div ng-view></div>
+</div>
+<script src="app.js"></script>
+<script src="factory/customer.factory.js"></script>
+<script src="service/customer.service.js"></script>
+<script src="controller/customer.controller.js"></script>
+
+</body>
+</html>
